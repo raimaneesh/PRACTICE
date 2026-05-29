@@ -13,3 +13,9 @@ resource"azurerm_resource_group""rg"{
 name ="maneesh"
 location"eastus"
 }
+resource"azurerm_storage_account""sa"{
+name="mm321"
+location="westus"
+account_replication_type ="LRS"
+account_tier ="Standard"
+}
